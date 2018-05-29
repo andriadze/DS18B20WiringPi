@@ -14,6 +14,7 @@ I simplified it to a bare minimum. Changed it over to WiringPi and added Java Bi
 ### Just C version:
 
 Copy test_c.c to your device and run:
+
 `gcc -Wall -o test test_c.c -lwiringPi -lpthread**`
 
 To run use:
