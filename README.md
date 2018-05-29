@@ -10,6 +10,7 @@ I simplified it to a bare minimum. Changed it over to WiringPi and added Java Bi
 
 # Compiling:
 
+### NOTE: These instructions are originally for NanoPi Neo. With Oracle JDK installed.
 
 ### Just C version:
 
