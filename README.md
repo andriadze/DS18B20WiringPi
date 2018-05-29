@@ -14,14 +14,14 @@ I simplified it to a bare minimum. Changed it over to WiringPi and added Java Bi
 ### Just C version:
 
 Copy test_c.c to your device and run:
-**gcc -Wall -o test test_c.c -lwiringPi -lpthread**
+`gcc -Wall -o test test_c.c -lwiringPi -lpthread**`
 
 To run use:
-**./test**
+`./test`
 
 ### Java Version:
 
-**gcc -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o libds18temp.so TempCReader.c -lwiringPi -lpthread**
+`gcc -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o libds18temp.so TempCReader.c -lwiringPi -lpthread`
 
 This will give you libds18temp.so. You can place this file in java library path or any folder just make sure to change to correct path in **TempSensorJNI.java**
 
