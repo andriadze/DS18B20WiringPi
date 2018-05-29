@@ -8,6 +8,12 @@ https://github.com/danjperron/BitBangingDS18B20
 
 I simplified it to a bare minimum. Changed it over to WiringPi and added Java Binding. Tested and working on Raspberry Pi3 and NanoPi Neo.
 
+# Use case:
+
+This code enables you to place DS18B20 sensor on any pin on all devices that support WiringPi.
+
+Please notify me if you test this code on any new devices.
+
 # Compiling:
 
 ### NOTE: These instructions are originally for NanoPi Neo. With Oracle JDK installed.
