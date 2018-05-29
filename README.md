@@ -14,6 +14,12 @@ This code enables you to place DS18B20 sensor on any pin on all devices that sup
 
 Please notify me if you test this code on any new devices.
 
+# Pick a Pin:
+Change this value in **c_test.c** and **TempCReader.c**:
+```c 
+#define DS18B20_PIN_NUMBER 7 
+```
+
 # Compiling:
 
 ### NOTE: These instructions are originally for NanoPi Neo. With Oracle JDK installed.
