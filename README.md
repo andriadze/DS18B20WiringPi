@@ -36,6 +36,10 @@ To run use:
 
 ### Java Version:
 
+Copy files from java folder to your device.
+
+To compile run:
+
 `gcc -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o libds18temp.so TempCReader.c -lwiringPi -lpthread`
 
 This will give you libds18temp.so. You can place this file in java library path or any folder just make sure to change to correct path in **TempSensorJNI.java**
